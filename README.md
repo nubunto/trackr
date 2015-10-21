@@ -9,3 +9,12 @@ The idea is simple. We have a collection of **sources of income** and a collecti
 The tool can make analysis on this data, then, to tell you your current status.
 
 Currently in development.
+
+## Current stack
+
+* Backend
+  * Language: [Golang](http://golang.org)
+  * Web Framework: [Gin](http://gin-gonic.github.io/gin/)
+  * Package Manager: [Bower](http://bower.io)
+* Front-end
+  * Framework: [Vue](http://vuejs.org)
