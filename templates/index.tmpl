@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>[[.title]]</title>
+	<script src="public/libs/vue/dist/vue.min.js"></script>
+</head>
+<body>
+	<div id="main-app">
+		<h1>{{title | uppercase}}</h1>
+		<input type="text" v-model="title">
+	</div>
+	<script>
+		var vm = new Vue({
+			el: "#main-app",
+			data: {
+				title: "Tracker"
+			}
+		});
+	</script>
+</body>
+</html>
